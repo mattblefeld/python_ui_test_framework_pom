@@ -1,6 +1,7 @@
 selenium
 pytest
+pytest-html
 
 # chromedriver
 # chrome
-# python
+# python 3

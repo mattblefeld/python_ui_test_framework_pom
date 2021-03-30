@@ -31,5 +31,7 @@ Go to the root of this project and type the following:
 
 After this next command, test collection should begin and a chrome browser should load and start performing the two tests that should be collected.
 
-`pytest -m "login"`
+NOTE: You need to replace the 'PATH TO PROJECT ROOT' in the --html flag with the correct path to the project.
+
+`pytest -m "login"  --html=PATH TO PROJECT ROOT\python_ui_test_framework_pom\test_reports\test_report.html --self-contained-html`
 

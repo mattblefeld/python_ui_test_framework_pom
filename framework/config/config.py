@@ -14,6 +14,7 @@ invalid_password = "invalid password"
 # get local working directory for screenshots
 path_to_screenshots = ((os.getcwd()).strip("tests")) + "screenshots\\"
 
+
 # Create the capabilities of the webdriver instance
 def webdriverinstance():
     chromeoptions = webdriver.ChromeOptions()
